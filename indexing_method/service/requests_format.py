@@ -40,7 +40,7 @@ def create_request_minutia(json_text):
 def request_msearch(list_text):
     for text in list_text:
         yield {"index": "finger"}
-        yield {"_source": ["id"], "from": 0, "size": 100,
+        yield {"_source": ["id"], "from": 0, "size": 10,
                "query": {
                    "nested": {
                        "path": "minutia",

@@ -9,7 +9,7 @@ def config():
     environ['INDEX_VECTOR_FOLDER_PATH'] = "/home/johnny/Downloads/TCC2/data-fingerprint/2002_DB1a_data/Vector_Index/"
     environ['SEARCH_VECTOR_FOLDER_PATH'] = "/home/johnny/Downloads/TCC2/data-fingerprint/2002_DB1a_data/Vector_Search/"
     environ['MCC_GENERATE_VECTOR'] = "./generate_mcc/generate_vector_python"
-    environ['FOLDER_CSV_OUTPUT'] = "/home/johnny/Downloads/TCC2/out/out-csv/"
+    environ['FOLDER_CSV_OUTPUT'] = "/home/johnny/Downloads/TCC2/out/out-csv-tf/"
 
 
 listNS = [18, 16, 12]
